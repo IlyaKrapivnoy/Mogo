@@ -109,8 +109,9 @@ hr {
 	widows: 100%;
 	height: 100vh;
 	opacity: .9;
-	background: url("../red/images/intro.jpg") center no-repeat;
+	background: url(images/intro.jpg) center no-repeat;
 	background-size: cover;
+	/*background: linear-gradient(to bottom, #f38181, #fce38a);*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -146,6 +147,7 @@ hr {
 	text-align: center;
 }
 /*header*/
+
 .header {
 	padding: 20px 0;
 	width: 100%;
@@ -156,7 +158,7 @@ hr {
 	z-index: 1000;
 }
 .header.transparent {
-	background-color: rgba(0, 120, 201, 0.7)
+	background-color: rgba(0, 0, 0, 0.3);
 
 }
 .header__inner {
