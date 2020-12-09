@@ -293,6 +293,9 @@ hr {
 }
 .section--blue {
 	background-color: #b5eae0;
+	background: url(images/background2.jpg) center no-repeat;
+	background-size: cover;
+
 }
 .section__header {
 	width: 100%;
@@ -383,7 +386,9 @@ hr {
 
 /*statistics*/
 .statistics {
-	background-color: #95e1d3;
+	/*background-color: #95e1d3;*/
+	background: url(images/background1.jpg) center no-repeat;
+	background-size: cover;
 }
 .stat {
 	display: flex;
@@ -521,6 +526,7 @@ hr {
  	font-weight: bold;
  }
  /*reviews*/
+
 .reviews {
 	padding: 0 110px;
 	position: relative;
@@ -543,8 +549,7 @@ hr {
 .reviews__text {
 	font-size: 24px;
 	font-style: italic;
-	font-weight: lighter;
-	color: #999;
+	color: #000;
 	margin-bottom: 15px;
 }
 .reviews__author {
