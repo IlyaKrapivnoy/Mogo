@@ -1,0 +1,22 @@
+{
+  "name": "mogo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaKrapivnoy/Mogo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IlyaKrapivnoy/Mogo/issues"
+  },
+  "homepage": "https://github.com/IlyaKrapivnoy/Mogo#readme",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
