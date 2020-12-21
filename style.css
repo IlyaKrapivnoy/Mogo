@@ -1111,21 +1111,33 @@ hr {
 		font-size: 40px;
 	}
 	.intro__title {
-		font-size: 100px;
+		font-size: 80px;
 	}
 }
 @media (max-width: 990px) {
 	/* intro */
 	.intro__suptitle {
-		font-size: 32px;
+		font-size: 28px;
 	}
 	.intro__title {
-		font-size: 80px;
+		font-size: 60px;
 	}
+	
 }
 @media (max-width: 770px) {
-	/* intro */
- 
+	/* nav */
+	.nav {
+		display: none;
+	}
+	/* slider */
+	.slider__text {
+		display: none;
+	}
+	/* section  */
+	.section {
+		padding: 40px 0;
+	}
+
 }
 @media (max-width: 575px) {
 	/* intro */
@@ -1134,5 +1146,12 @@ hr {
 	}
 	.intro__title {
 		font-size: 40px;
+	}
+	/* section  */ 
+	.section__suptitle {
+		font-size: 20px;
+	}
+	.section__title {
+		font-size: 24px;
 	}
 }
