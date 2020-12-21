@@ -606,6 +606,7 @@ hr {
 /*card*/
 .card {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: 60px;
 }
@@ -630,6 +631,8 @@ hr {
 	display: block;
 	background: linear-gradient(to bottom, #f38181, #fce38a);
 	transition: transform .3s linear;
+	max-width: 100%;
+	height: auto;
 }
 .card__img img {
 	transition: opacity .1s linear;
@@ -1137,7 +1140,10 @@ hr {
 	.section {
 		padding: 40px 0;
 	}
-
+	/* cards */
+	.card__item {
+		width: 100%;
+	}
 }
 @media (max-width: 575px) {
 	/* intro */
@@ -1148,10 +1154,17 @@ hr {
 		font-size: 40px;
 	}
 	/* section  */ 
+	.section__header {
+		margin-bottom: 30px;
+	}
 	.section__suptitle {
 		font-size: 20px;
 	}
 	.section__title {
 		font-size: 24px;
 	}
+	.section__title:after {
+		margin: 20px auto;
+	}
+	
 }
