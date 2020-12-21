@@ -347,6 +347,7 @@ hr {
 	margin-top: 60px;
 }
 .about__item {
+	display: flex;
 	width: 18%;
 	background-color: #95e1d3;
 	position: relative;
@@ -1125,6 +1126,19 @@ hr {
 	.intro__title {
 		font-size: 60px;
 	}
+	/* about__item */
+	.about {
+		flex-wrap: wrap;
+	}
+	.about__item {
+		width: 50%;
+		justify-content: center;
+		background-color: inherit;
+		margin: 10px 0;
+	}
+	.about__item:last-child {
+		display: none;
+	}
 	
 }
 @media (max-width: 770px) {
@@ -1140,10 +1154,7 @@ hr {
 	.section {
 		padding: 40px 0;
 	}
-	/* cards */
-	.card__item {
-		width: 100%;
-	}
+	
 }
 @media (max-width: 575px) {
 	/* intro */
@@ -1166,5 +1177,10 @@ hr {
 	.section__title:after {
 		margin: 20px auto;
 	}
-	
+	/* about  */
+	.about__item {
+		width: 100%;
+		justify-content: center;
+		
+	}
 }
